@@ -1,0 +1,732 @@
+@import url("//fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+.fw-9 {
+  font-weight: 900 !important;
+}
+.fw-8 {
+  font-weight: 800 !important;
+}
+.fw-7 {
+  font-weight: 700 !important;
+}
+.fw-6 {
+  font-weight: 600 !important;
+}
+.fw-5 {
+  font-weight: 500 !important;
+}
+.fw-4 {
+  font-weight: 400 !important;
+}
+.fs-5 {
+  font-size: 1.5em !important;
+}
+.fs-6 {
+  font-size: 2rem !important;
+}
+.fs-7 {
+  font-size: 2.5em !important;
+}
+.fs-8 {
+  font-size: 4em !important;
+}
+@media only screen and (max-width: 768px) {
+  .fs-8 {
+    font-size: 2.5em !important;
+  }
+}
+
+.mt-6 {
+  margin-top: 2rem;
+}
+.mt-7 {
+  margin-top: 2.5em;
+}
+.mt-8 {
+  margin-top: 4em;
+}
+.mt-9 {
+  margin-top: 7em;
+}
+
+.pt-6 {
+  padding-top: 2rem;
+}
+.pt-7 {
+  padding-top: 2.5em;
+}
+.pt-8 {
+  padding-top: 4em;
+}
+.pt-9 {
+  padding-top: 7em;
+}
+.pt-10 {
+  padding-top: 13.5em;
+}
+.pb-10 {
+  padding-bottom: 13.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: black;
+  transition: all 300ms ease-in;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.user {
+  object-fit: contain;
+  width: 170px;
+  height: 150px;
+}
+
+.header {
+  background: #fff;
+}
+
+.text-dc {
+  color: #7289da;
+}
+.text-orange {
+  color: orange;
+}
+.text-red {
+  color: crimson;
+}
+
+.alert-danger {
+  background: crimson !important;
+  color: #fff;
+}
+
+.bx-lite {
+  font-size: 5rem;
+  color: #1A1ECE;
+  margin: 1rem;
+}
+.bx-standart {
+  font-size: 5rem;
+  color: orange;
+  margin: 1rem;
+}
+
+.btn {
+  transition: all 300ms ease-in !important;
+}
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+.home {
+  margin-bottom: 10rem;
+}
+.home-features-box {
+  font-family: "Quicksand", sans-serif;
+  max-width: 350px;
+  text-align: center;
+}
+.home-features-box i {
+  font-size: 2.5rem;
+  margin: 10px;
+}
+.home-features-box h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.home-features-box p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.home-features-box:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgb(58, 255, 162);
+  background: rgb(194, 130, 208);
+  background: rgb(46, 113, 67);
+  background: rgb(140, 229, 219);
+  background: rgb(177, 192, 64);
+  background: rgb(26, 238, 62);
+  background: rgb(215, 250, 69);
+  background: rgb(202, 17, 50);
+  background: rgb(13, 112, 135);
+  background: rgb(230, 166, 174);
+  background: rgb(192, 18, 90);
+  background: rgb(80, 154, 61);
+  background: rgb(186, 177, 102);
+  background: rgb(58, 235, 190);
+  background: rgb(22, 157, 116);
+  background: rgb(204, 68, 136);
+  background: rgb(107, 229, 4);
+  background: rgb(33, 35, 166);
+  background: rgb(50, 226, 202);
+  background: rgb(8, 136, 175);
+  background: rgb(35, 133, 194);
+  background: rgb(123, 98, 135);
+  background: rgb(132, 156, 207);
+  background: rgb(175, 249, 146);
+  background: rgb(175, 109, 247);
+  background: rgb(248, 160, 234);
+  background: rgb(220, 212, 231);
+  background: rgb(41, 27, 186);
+  background: rgb(89, 149, 105);
+  background: rgb(222, 172, 120);
+  background: rgb(205, 53, 100);
+  background: rgb(59, 6, 63);
+  background: rgb(189, 3, 181);
+  background: rgb(110, 66, 166);
+  background: rgb(153, 246, 62);
+  background: rgb(30, 119, 243);
+  background: rgb(86, 253, 175);
+  background: rgb(175, 178, 154);
+  background: rgb(8, 103, 154);
+  background: rgb(203, 132, 228);
+  background: rgb(148, 51, 38);
+  background: rgb(90, 110, 226);
+  background: rgb(102, 141, 162);
+  background: rgb(152, 220, 149);
+  background: rgb(151, 74, 63);
+  background: rgb(246, 229, 132);
+  background: rgb(147, 102, 253);
+  background: rgb(87, 7, 241);
+  background: rgb(131, 1, 88);
+  background: rgb(30, 171, 19);
+  background: rgb(252, 128, 60);
+  background: rgb(161, 250, 8);
+  background: rgb(169, 71, 125);
+  background: rgb(92, 44, 253);
+  background: rgb(218, 148, 77);
+  background: rgb(122, 27, 2);
+  background: rgb(220, 31, 253);
+  background: rgb(184, 24, 9);
+  background: rgb(48, 36, 143);
+  background: rgb(78, 181, 106);
+  background: rgb(244, 121, 84);
+  background: rgb(80, 48, 228);
+  background: rgb(36, 173, 96);
+  background: rgb(235, 253, 134);
+  background: rgb(133, 18, 154);
+  background: rgb(9, 111, 95);
+  background: rgb(118, 9, 7);
+  background: rgb(10, 86, 198);
+  background: rgb(145, 97, 243);
+  background: rgb(64, 158, 29);
+  background: rgb(53, 2, 106);
+  background: rgb(147, 90, 233);
+  background: rgb(141, 91, 53);
+  background: rgb(86, 182, 219);
+  background: rgb(243, 175, 213);
+  background: rgb(155, 149, 6);
+  background: rgb(19, 122, 70);
+  background: rgb(162, 19, 202);
+  background: rgb(41, 124, 72);
+  background: rgb(13, 197, 119);
+  background: rgb(255, 71, 215);
+  background: rgb(169, 202, 132);
+  background: rgb(35, 84, 142);
+  background: rgb(235, 73, 158);
+  background: rgb(41, 184, 253);
+  background: rgb(98, 215, 141);
+  background: rgb(174, 129, 103);
+  background: rgb(112, 20, 190);
+  background: rgb(90, 123, 23);
+  background: rgb(20, 228, 109);
+  background: rgb(19, 71, 133);
+  background: rgb(81, 252, 138);
+  background: rgb(78, 66, 246);
+  background: rgb(76, 17, 184);
+  background: rgb(93, 79, 11);
+  background: rgb(167, 41, 103);
+  background: rgb(99, 5, 211);
+  background: rgb(187, 102, 27);
+  background: rgb(168, 98, 149);
+  background: rgb(87, 246, 196);
+  background: rgb(226, 253, 146);
+  background: rgb(233, 8, 118);
+  background: rgb(14, 228, 196);
+  background: rgb(68, 156, 127);
+  background: rgb(168, 42, 126);
+  background: rgb(37, 241, 207);
+  background: rgb(23, 250, 144);
+  background: rgb(183, 67, 86);
+  background: rgb(204, 11, 99);
+  background: rgb(101, 86, 172);
+  background: rgb(99, 32, 50);
+  background: rgb(135, 218, 177);
+  background: rgb(90, 82, 126);
+  background: rgb(21, 229, 142);
+  background: rgb(10, 41, 84);
+  background: rgb(59, 66, 114);
+  background: rgb(155, 227, 179);
+  background: rgb(201, 249, 233);
+  background: rgb(123, 81, 199);
+  background: rgb(26, 91, 225);
+  background: rgb(78, 118, 171);
+  background: rgb(213, 149, 248);
+  background: rgb(178, 122, 76);
+  background: rgb(187, 227, 92);
+  background: rgb(234, 226, 208);
+  background: rgb(235, 76, 93);
+  background: rgb(213, 58, 220);
+  background: rgb(244, 125, 197);
+  background: rgb(200, 107, 150);
+  background: rgb(28, 82, 62);
+  background: rgb(200, 5, 108);
+  background: rgb(78, 69, 200);
+  background: rgb(5, 164, 196);
+  background: rgb(82, 124, 18);
+  background: rgb(89, 139, 16);
+  background: rgb(100, 89, 88);
+  background: rgb(3, 89, 116);
+  background: rgb(91, 168, 237);
+  background: rgb(158, 119, 28);
+  background: rgb(79, 125, 82);
+  background: rgb(175, 234, 33);
+  background: rgb(42, 193, 83);
+  background: rgb(109, 71, 200);
+  background: rgb(165, 232, 96);
+  background: rgb(52, 132, 220);
+  background: rgb(222, 139, 53);
+  background: rgb(82, 33, 40);
+  background: rgb(27, 119, 50);
+  background: rgb(197, 36, 1);
+  background: rgb(31, 183, 145);
+  background: rgb(88, 135, 39);
+  background: rgb(231, 144, 164);
+  background: rgb(16, 212, 191);
+  background: rgb(47, 215, 213);
+  background: rgb(97, 204, 90);
+  background: rgb(255, 140, 109);
+  background: rgb(107, 75, 192);
+  background: rgb(220, 216, 237);
+  background: rgb(91, 13, 248);
+  background: rgb(181, 125, 200);
+  background: rgb(30, 25, 164);
+  background: rgb(36, 92, 127);
+  background: rgb(9, 45, 185);
+  background: rgb(18, 239, 219);
+  background: rgb(112, 139, 197);
+  background: rgb(246, 209, 98);
+  background: rgb(201, 115, 87);
+  background: rgb(71, 93, 195);
+  background: rgb(73, 106, 121);
+  background: rgb(16, 240, 246);
+  background: rgb(213, 68, 39);
+  background: rgb(182, 221, 180);
+  background: rgb(115, 27, 146);
+  background: rgb(233, 104, 198);
+  background: rgb(10, 64, 54);
+  background: rgb(14, 203, 236);
+  background: rgb(241, 180, 183);
+  background: rgb(78, 2, 203);
+  background: rgb(12, 74, 224);
+  background: rgb(117, 92, 139);
+  background: rgb(29, 211, 135);
+  background: rgb(102, 199, 57);
+  background: rgb(92, 94, 106);
+  background: rgb(242, 143, 122);
+  background: rgb(250, 40, 31);
+  background: rgb(178, 234, 240);
+  background: rgb(211, 167, 62);
+  background: rgb(172, 65, 103);
+  background: rgb(95, 209, 180);
+  background: rgb(198, 219, 3);
+  background: rgb(92, 26, 81);
+  background: rgb(179, 8, 93);
+  background: rgb(52, 117, 200);
+  background: rgb(120, 20, 247);
+  background: rgb(124, 133, 104);
+  background: rgb(213, 236, 181);
+  background: rgb(73, 7, 225);
+  background: rgb(174, 176, 184);
+  background: rgb(56, 83, 12);
+  background: rgb(114, 30, 57);
+  background: rgb(80, 252, 12);
+  background: rgb(78, 208, 200);
+  background: rgb(82, 185, 225);
+  background: rgb(133, 217, 155);
+  background: rgb(102, 82, 230);
+  background: rgb(227, 43, 211);
+  background: rgb(220, 222, 23);
+  background: rgb(65, 4, 187);
+  background: rgb(122, 231, 238);
+  background: rgb(245, 253, 239);
+  background: rgb(187, 3, 11);
+  background: rgb(207, 114, 1);
+  background: rgb(236, 88, 180);
+  background: rgb(107, 228, 207);
+  background: rgb(141, 69, 37);
+  background: rgb(220, 123, 185);
+  background: rgb(79, 198, 1);
+  background: rgb(57, 227, 141);
+  background: rgb(31, 237, 46);
+  background: rgb(210, 47, 140);
+  background: rgb(78, 181, 176);
+  background: rgb(102, 172, 57);
+  background: rgb(1, 182, 83);
+  background: rgb(174, 10, 150);
+  background: rgb(156, 18, 19);
+  background: rgb(226, 125, 174);
+  background: rgb(103, 109, 134);
+  background: rgb(148, 2, 114);
+  background: rgb(144, 80, 23);
+  background: rgb(87, 209, 179);
+  background: rgb(124, 36, 111);
+  background: rgb(207, 91, 48);
+  background: rgb(112, 3, 138);
+  background: rgb(191, 253, 83);
+  background: rgb(55, 114, 8);
+  background: rgb(234, 94, 46);
+  background: rgb(6, 97, 187);
+  background: rgb(136, 130, 210);
+  background: rgb(100, 219, 144);
+  background: rgb(167, 124, 56);
+  background: rgb(175, 36, 199);
+  background: rgb(214, 66, 5);
+  background: rgb(182, 12, 201);
+  background: rgb(159, 15, 80);
+  background: rgb(11, 249, 203);
+  background: rgb(225, 157, 190);
+  background: rgb(92, 195, 128);
+  background: rgb(252, 108, 41);
+  background: rgb(100, 116, 125);
+  background: rgb(27, 76, 82);
+  background: rgb(224, 197, 24);
+  background: rgb(130, 13, 199);
+  background: rgb(226, 164, 144);
+  background: rgb(223, 78, 242);
+  background: rgb(26, 255, 132);
+}
+.home-head h1 {
+  font: 3rem "Quicksand", sans-serif;
+}
+.home-head #home-typedjs {
+  font-weight: bold;
+  text-shadow: 4px 1px 2px rgba(114, 137, 218, 0.64);
+}
+.home-l svg {
+  position: absolute;
+}
+.home-l img {
+  max-width: 460px;
+  max-height: 360px;
+}
+
+.pt-6 {
+  padding-top: 4rem;
+}
+.pt-8 {
+  padding-top: 6rem;
+}
+.pt-10 {
+  padding-top: 8rem;
+}
+
+.aboutus-img-whoweare {
+  object-fit: cover;
+  width: 250px;
+  height: 200px;
+}
+.aboutus-img-team {
+  object-fit: contain;
+  width: 160px;
+  height: 150px;
+}
+.aboutus-team {
+  border: 1px solid gray;
+  margin: 1rem;
+  padding: 1rem;
+  transition: all 300ms ease-in;
+  border-radius: 0.725rem;
+}
+.aboutus-team p {
+  font: 2rem "Quicksand", sans-serif;
+  margin: 1rem;
+}
+.aboutus-team small {
+  opacity: 0.3;
+  user-select: none;
+}
+.aboutus-team:hover {
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+.aboutus-teamsocial ul {
+  list-style-type: none;
+}
+.aboutus-teamsocial a {
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: black;
+}
+.aboutus-whoweare {
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.aboutus h2 {
+  font: 2.5rem "Quicksand", sans-serif;
+  margin: 1rem;
+}
+.aboutus h2 small {
+  opacity: 0.3;
+  user-select: none;
+  font-size: 1.6rem;
+  display: block;
+  transition: all 300ms ease-in;
+}
+
+.showup {
+  margin-top: 7rem;
+  border-radius: 5px;
+  transition: all 300ms ease-in;
+}
+.showup-box {
+  padding: 2rem;
+}
+.showup-box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.showup:hover {
+  transform: translateY(-15px);
+}
+
+.demos {
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  background: #14204b;
+  color: #fff;
+  padding: 2rem;
+}
+.demos-top h1 {
+  font-weight: bolder;
+}
+.demos-top p {
+  font-size: 1.5rem;
+}
+
+.features-showup {
+  background: linear-gradient(to right, #1A1ECE 0%, #7289DA 50%, #56C5AF 100%);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 10px;
+}
+.features-showup span {
+  opacity: 0.3;
+  user-select: none;
+  font-size: 30px;
+}
+.features-box {
+  position: relative;
+  margin: 0 4rem 4rem 0 !important;
+  border-radius: 10px;
+  border-top: 0.4rem solid #253c8e;
+  box-shadow: 2px 3px 18px 2px rgba(0, 0, 0, 0.5);
+  word-break: break-word;
+  padding: 1.5rem;
+  transition: all 300ms ease-in;
+}
+.features-box h3 {
+  font: 2rem "Quicksand", sans-serif;
+}
+.features-box p {
+  font: 1rem "Quicksand", sans-serif;
+}
+.features-box i {
+  font-size: 3rem;
+}
+.features-box:hover {
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+.features-box-dash {
+  position: relative;
+  margin: 0 4rem 4rem 0 !important;
+  border-radius: 10px;
+  border-top: 0.4rem solid crimson;
+  box-shadow: 2px 3px 18px 2px rgba(0, 0, 0, 0.5);
+  word-break: break-word;
+  padding: 1.5rem;
+  transition: all 300ms ease-in;
+}
+.features-box-dash h3 {
+  font: 2rem "Quicksand", sans-serif;
+}
+.features-box-dash p {
+  font: 1rem "Quicksand", sans-serif;
+}
+.features-box-dash i {
+  font-size: 3rem;
+}
+.features-box-dash:hover {
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+
+.login-page {
+  padding: 1rem;
+}
+
+.price-showup {
+  background: linear-gradient(to right, #1A1ECE 0%, #7289DA 50%, #56C5AF 100%);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.725rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.price-showup .url {
+  opacity: 0.3;
+  user-select: none;
+  font-size: 30px;
+}
+.price-box {
+  border-radius: 0.725rem;
+  padding: 1rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.price-box-price {
+  font: 2.4rem "Quicksand", sans-serif;
+}
+.price-box-price span {
+  opacity: 0.6;
+  user-select: none;
+  font-size: 2rem;
+}
+.price-box hr {
+  background: white;
+  height: 2px;
+}
+.price-box-top h2 {
+  font: 2.5rem "Quicksand", sans-serif;
+}
+.price-box-top small {
+  font: 1.3rem "Quicksand", sans-serif;
+  opacity: 0.5;
+  user-select: none;
+}
+.price-box-features-head {
+  user-select: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.price-box-features-head:before {
+  content: "";
+  width: 20%;
+  display: inline-block;
+  height: 1px;
+  margin-right: 4px;
+  background: gray;
+}
+.price-box-features-head:after {
+  content: "";
+  width: 20%;
+  display: inline-block;
+  height: 1px;
+  margin-left: 4px;
+  background: gray;
+}
+.price-box-mid {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-box-mid ul {
+  list-style-type: none;
+}
+.price-box-mid li {
+  color: #677788;
+}
+.price-box-bot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.payment {
+  background: #14204b;
+  padding: 1rem;
+  color: #fff;
+}
+.payment-title i {
+  font-size: 3rem;
+}
+.payment-info, .payment-order {
+  color: black;
+  padding: 1rem 0.7rem;
+}
+
+.footer {
+  font-family: "Quicksand", sans-serif;
+}
+.footer-nick h3 {
+  font-size: 2rem;
+}
+.footer-nick p {
+  font-size: 1rem;
+}
+.footer-ul {
+  list-style-type: none;
+}
+.footer-ul a {
+  color: rgba(84, 93, 122, 0.8);
+}
+.footer-bottom {
+  margin-top: 2rem;
+}
+.footer-bottom .credits a {
+  color: black;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+.footer-social li {
+  margin: 0.425rem;
+}
+.footer-social li i {
+  font-size: 1.3rem;
+}
+.footer:after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  display: block;
+  animation: rainbow-move 6s infinite linear alternate;
+  background: linear-gradient(to right, #fd004c, #fe9000, #fff020, #3edf4b, #3363ff, #b102b7, #fd004c);
+}
+
+@keyframes rainbow-move {
+  100% {
+    background-position-x: 4000px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

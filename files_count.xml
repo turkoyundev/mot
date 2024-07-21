@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<pagescount>
+	<html_total>13</html_total>
+	<html_done>13</html_done>
+	<images>4</images>
+	<script>8</script>
+	<css>4</css>
+	<pdf/>
+	<documents/>
+	<excel/>
+	<powerpoint/>
+	<flash/>
+	<audios>1</audios>
+	<videos/>
+	<xml/>
+	<json/>
+	<txt/>
+	<autocad/>
+	<fonts>4</fonts>
+	<scraping_reload>1</scraping_reload>
+	<is_pretty_url>true</is_pretty_url>
+	<has_trailing_slash>false</has_trailing_slash>
+	<is_ebn>false</is_ebn>
+	<email>bayibotu@gmail.com</email>
+	<theme_name>WmdTheme220917</theme_name>
+	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/demo/portfaria.com_bayibotu_gmail.com_n577uipwr0/</server_url_front_page>
+	<no_www_url>portfaria.com</no_www_url>
+	<hosted_domain/>
+	<original_archive_url>https://web.archive.org/web/20221124164447/https://www.portfaria.com/</original_archive_url>
+	<final_archive_url>https://web.archive.org/web/20221124164447/https://www.portfaria.com/</final_archive_url>
+	<front_page_code_date>20221124164447</front_page_code_date>
+	<total_urls_from_api/>
+	<max_reached_live>false</max_reached_live>
+	<scrape_other_captures>false</scrape_other_captures>
+	<total_size>5576</total_size>
+</pagescount>
